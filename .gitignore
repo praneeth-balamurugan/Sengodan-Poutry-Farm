@@ -4,6 +4,8 @@ __pycache__/
 
 # Virtual environment
 venv/
+venv/
+*.dist-info/
 
 # IDE/Editor specific files
 .vscode/
@@ -14,8 +16,6 @@ venv/
 *.log
 *.sqlite
 
-venv/
-*.dist-info/
 # Environment variables file
 .env
 
