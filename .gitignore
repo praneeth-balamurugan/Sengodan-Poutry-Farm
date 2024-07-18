@@ -1,0 +1,22 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# IDE/Editor specific files
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Environment variables file
+.env
+
+# Other files and directories to ignore
+*.swp
+.DS_Store
