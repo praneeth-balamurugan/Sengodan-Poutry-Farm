@@ -2,7 +2,7 @@
 set -ex
 
 echo "Starting Docker pull..."
-docker pull bpraneeth/farm:latest
+docker pull bpraneeth/farm
 echo "Docker pull completed."
 
 echo "Starting Docker container..."
