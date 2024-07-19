@@ -1,6 +1,10 @@
 #!/bin/bash
-set -e
+set -ex
 
+echo "Starting Docker pull..."
 docker pull bpraneeth/farm:latest
-# Run the Docker image as a container
+echo "Docker pull completed."
+
+echo "Starting Docker container..."
 docker run -d -p 5000:5000 bpraneeth/farm
+echo "Docker container started."
